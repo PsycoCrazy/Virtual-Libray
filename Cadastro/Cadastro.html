@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Creat Account </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="Creat.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="botao-voltar">
+            <input class="btn-home" type='button' value='Home' onclick='history.go(-1)' href="Creat.css" />
+        </div>
+        <form>
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome:</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+    
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>CPF:</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Autor1:</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Autor2:</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Autor3:</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Autor4:</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Autor5:</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+            <fieldset class="grupo">
+    
+                <!-- Caixa de texto -->
+                <div class="campo">
+                    <br>
+                    <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+                    <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>CPF:</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>CPF:</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+                <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+                <div class="campo">
+                    <label><strong>Modalidade:</strong></label>
+                    <label>
+                        <input type="radio" name="devweb" value="frontend" checked>Resumo
+                    </label>
+                    <label>
+                        <input type="radio" name="devweb" value="backend">Completo
+                    </label>
+                </div>
+                <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+                <div class="campo1">
+                    <label><strong>Tipo:</strong></label>
+                    <label>
+                        <input type="radio" name="devweb" value="frontend" checked>Graduação
+                    </label>
+                    <label>
+                        <input type="radio" name="devweb" value="backend">Pós-Graduação
+                    </label>
+                    <label>
+                        <input type="radio" name="devweb" value="fullstack">Outros
+                    </label>
+                </div>
+                <div class="campo">
+                    <label><strong>Apresentações:</strong></label>
+                    <label>
+                        <input type="checkbox" name="tipo" value="frontend" checked>Oral
+                    </label>
+                    <label>
+                        <input type="checkbox" name="tipo" value="backend">Pôster
+                    </label>
+                </div>
+                <!-- Botão para enviar o formulário -->
+                <button class="botao" type="submit" onsubmit="">Enviar</button> <button class="botao" type="submit" onsubmit="">Limpar</button>
+            </fieldset>
+    
+        </form>
+    
+    </body>
+</html>
